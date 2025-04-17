@@ -1,0 +1,14 @@
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Cursor\User\settings.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\settings.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Cursor\User\keybindings.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\keybindings.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Cursor\User\tasks.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\tasks.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Cursor\User\snippets" -Target "C:\Users\sinph\AppData\Roaming\Code\User\snippets" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Cursor\User\profiles" -Target "C:\Users\sinph\AppData\Roaming\Code\User\profiles" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\.cursor\extensions" -Target "C:\Users\sinph\.vscode\extensions" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\.cursor\argv.json" -Target "C:\Users\sinph\.vscode\argv.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Trae\User\settings.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\settings.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Trae\User\keybindings.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\keybindings.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Trae\User\tasks.json" -Target "C:\Users\sinph\AppData\Roaming\Code\User\tasks.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Trae\User\snippets" -Target "C:\Users\sinph\AppData\Roaming\Code\User\snippets" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\AppData\Roaming\Trae\User\profiles" -Target "C:\Users\sinph\AppData\Roaming\Code\User\profiles" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\.trae\extensions" -Target "C:\Users\sinph\.vscode\extensions" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\sinph\.trae\argv.json" -Target "C:\Users\sinph\.vscode\argv.json" -Force

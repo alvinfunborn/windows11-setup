@@ -1,0 +1,308 @@
+{
+    "[javascriptreact]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[typescriptreact]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "augment.chat.userGuidelines": "Always response in 中文;",
+    "bookmarks.sideBar.expanded": true,
+    "cursor.composer.shouldShowMarkdownHoverParticipantActions2": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "scminput"
+    ],
+    "cursor.cpp.enablePartialAccepts": true,
+    "cursor.general.enableShadowWorkspace": true,
+    "cursor.general.gitGraphIndexing": "enabled",
+    "database-client.autoSync": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": "on",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.accessibilitySupport": "off",
+    "editor.columnSelection": false,
+    "editor.detectIndentation": true,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.find.cursorMoveOnType": false,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.side": "left",
+    "editor.minimap.size": "fill",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.deprecated": "#d1f7ff80",
+            "class": "#f3e700",
+            "class.abstract": "#f3e700a1",
+            "class.static": "#d600ff",
+            "comment": "#ffffff70",
+            "enum": "#d600ff",
+            "enumMember": "#d600ff",
+            "event": "#ffffff",
+            "function": "#ff00a0",
+            "function.abstract": "#ff00a0c1",
+            "function.static": "#ff6e27",
+            "interface": "#f3e700a1",
+            "keyword": "#7aa4f3",
+            "label": "#ffffff",
+            "macro": "#d600ff",
+            "method": "#ff00a0",
+            "method.abstract": "#ff00a0c1",
+            "method.static": "#ff6e27",
+            "namespace": "#f3e700d0",
+            "number": "#ffccdc",
+            "operator": "#7aa4f3",
+            "parameter": "#a0ffe3",
+            "property": "#65dc98",
+            "property.static": "#ff6e27",
+            "regexp": "#ffccdc",
+            "string": "#ffccdc",
+            "struct": "#f3e700d0",
+            "type": "#f3e700d0",
+            "typeParameter": "#f3e700a1",
+            "variable": "#05d9e8"
+        }
+    },
+    "editor.showFoldingControls": "always",
+    "editor.stickyScroll.enabled": true,
+    "editor.suggest.filterGraceful": false,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#ffffff70",
+        "keywords": "#7aa4f3",
+        "numbers": "#ffccdc",
+        "strings": "#ffccdc"
+    },
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "editor.wordWrapColumn": 200,
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\r\n",
+    "files.exclude": {
+        "**/.VSCodeCounter": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.history": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.detectSubmodulesLimit": 1,
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "indentRainbow.colors": [
+        "#ff00a0",
+        "#ff6e27",
+        "#f3e700",
+        "#65dc98",
+        "#05d9e8",
+        "#7aa4f3",
+        "#d600ff"
+    ],
+    "indentRainbow.errorColor": "transparent",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.eclipse.downloadSources": true,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\sinph\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "java.maven.downloadSources": true,
+    "java.maven.updateSnapshots": true,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.referencesCodeLens.enabled": true,
+    "java.templates.typeComment": [
+        "/**",
+        " * datetime ${date} ${time}",
+        " *",
+        " * @author zhouwenxiang",
+        " */"
+    ],
+    "java.trace.server": "messages",
+    "markdown-preview-enhanced.plantumlJarPath": "C:\\Users\\sinph\\OneDrive\\notes\\sin5\\env\\plantuml\\plantuml.jar",
+    "markdown-preview-enhanced.previewMode": "Multiple Previews",
+    "maven.executable.preferMavenWrapper": false,
+    "maven.terminal.favorites": [
+        {
+            "command": "clean install -U",
+            "name": "clean install -U"
+        },
+        {
+            "command": "dependency:tree",
+            "name": "dependency tree"
+        }
+    ],
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#dd0531"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#61dafb"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Svelte Orange",
+            "value": "#ff3d00"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        },
+        {
+            "name": "VS Studio",
+            "value": "#3915a6"
+        },
+        {
+            "name": "Explorer",
+            "value": "#dd9900"
+        },
+        {
+            "name": "Obsidian",
+            "value": "#6332c7"
+        },
+        {
+            "name": "SSH",
+            "value": "#434343"
+        },
+        {
+            "name": "Mysql",
+            "value": "#00758f"
+        },
+        {
+            "name": "Redis",
+            "value": "#d5362c"
+        }
+    ],
+    "plantuml.commandArgs": [
+        "-Dcharset=UTF-8"
+    ],
+    "redhat.telemetry.enabled": false,
+    "remote.downloadExtensionsLocally": true,
+    "search.exclude": {
+        "**/.specstory": true,
+        "**/node_modules": true,
+        "**/target": true,
+        ".next/": true,
+        "out/": true
+    },
+    "search.mode": "reuseEditor",
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "search.searchOnType": true,
+    "security.workspace.trust.enabled": false,
+    "specstory.helpUsImprove": false,
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableFileLinks": "notRemote",
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.scrollback": 3000,
+    "terminal.integrated.tabs.location": "left",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.newWindowDimensions": "offset",
+    "window.openFilesInNewWindow": "on",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#f3e700a1",
+        "activityBar.background": "#ff00a080",
+        "breadcrumb.background": "#01012b",
+        "breadcrumb.foreground": "#ff00a0",
+        "editor.background": "#01012b",
+        "editor.lineHighlightBackground": "#01012b",
+        "editor.selectionBackground": "#f3e70055",
+        "editor.selectionHighlightBorder": "#f3e700",
+        "editorBracketMatch.border": "#f3e700",
+        "editorCursor.foreground": "#ffffff",
+        "editorGroupHeader.tabsBackground": "#01012b",
+        "editorGutter.background": "#01012b",
+        "editorLineNumber.activeForeground": "#f3e700",
+        "editorLineNumber.background": "#01012b",
+        "editorLineNumber.foreground": "#ff00a0",
+        "gitDecoration.addedResourceForeground": "#65dc98",
+        "gitDecoration.modifiedResourceForeground": "#05d9e8",
+        "list.activeSelectionBackground": "#f3e700a1",
+        "list.focusBackground": "#f3e700a1",
+        "list.hoverBackground": "#f3e70021",
+        "list.inactiveFocusBackground": "#f3e70065",
+        "list.inactiveSelectionBackground": "#f3e70065",
+        "menu.background": "#01012b",
+        "minimap.background": "#01012b",
+        "panel.background": "#01012b",
+        "scrollbarSlider.activeBackground": "#f3e70065",
+        "scrollbarSlider.background": "#f3e70065",
+        "scrollbarSlider.hoverBackground": "#f3e70065",
+        "sideBar.background": "#01012b",
+        "sideBarSectionHeader.background": "#ff00a080",
+        "statusBar.background": "#01012b",
+        "statusBar.noFolderBackground": "#01012b",
+        "statusBarItem.hoverBackground": "#f3e700a1",
+        "tab.activeBackground": "#f3e700a1",
+        "tab.inactiveBackground": "#01012b",
+        "tab.unfocusedActiveBackground": "#ff00a080",
+        "terminal.background": "#01012b",
+        "titleBar.activeBackground": "#f3e700a1",
+        "titleBar.inactiveBackground": "#ff00a080"
+    },
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.editor.decorations.badges": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 30,
+    "workbench.editorAssociations": {},
+    "workbench.iconTheme": "file-icons",
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "workbench.quickOpen.preserveInput": true,
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.activityBar.location": "top",
+    "workbench.editor.wrapTabs": true,
+}
