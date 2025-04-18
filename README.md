@@ -200,6 +200,7 @@ edge常用快捷键:
 cursor常用快捷键:
 - 添加书签: ctrl+\
 - 编辑器代码定位: ctrl+q
+![cursor_ctrlq](./resources/cursor_ctrlq.png)
 - 查看git历史: ctrl+h
 - 接受内联建议的下一个字: ctrl+1
 - 查看文件历史: alt+3
@@ -213,16 +214,21 @@ cursor常用快捷键:
 
 utools常用快捷键: 
 - 搜索切换窗口: win+`
+![utools_win](./resources/utools_win.png)
 - 搜索文件/文件夹: win+shift+e
 - 剪贴板: alt+v
 - 搜索浏览器书签: win+\
 
 Fluent Search常用快捷键:
 - 搜索屏幕元素: alt+q
+![fluent_search_altq](./resources/fluent_search_altq.png)
 
 mousemaster常用快捷键:
 - 激活屏幕hint: alt+f
+![mousemaster_altf](./resources/mousemaster_altf.png)
 - 激活屏幕切换: alt+s
+![mousemaster_alts](./resources/mousemaster_alts.png)
+- 激活窗口grid: alt+g
 - 激活移动: alt+e
     - 移动: e/s/d/f
     - 激活屏幕grid: g
