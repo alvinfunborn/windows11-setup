@@ -669,7 +669,12 @@ mousemaster常用快捷键:
 1. 设置mousemaster
     1. 去除idle模式下的alt修饰键拦截
     1. 参考[keylist.md](https://github.com/petoncle/mousemaster/blob/74/configuration/key-list.md)修改合适的键位: esdf风格的左手单手键位设置[mousemaster.properties](./mousemaster.properties)
-    1. 右键修改属性->兼容性->以管理员身份运行
+    1. 设置以管理员身份开机自启动
+        1. 右键修改属性->兼容性->以管理员身份运行
+        1. 打开注册表编辑器, 定位到计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+        1. 添加字符串值(值不直接使用exe路径是因为需要进入到目录后再启动, mousemaster.exe依赖当前目录下的配置文件):
+            1. 名称: mousemaster
+            1. 值: "C:\Windows\System32\cmd.exe" /c "cd /d C:\Users\sinph\OneDrive\notes\sin5\apps\mousemaster && start mousemaster.exe"
 1. 安装Fluent Search
     1. 下载[portable](https://fluentsearch.net/)版本到C:\Users\sinph\OneDrive\notes\sin5\apps\fluent-search-portable
 1. 设置Fluent Search
@@ -686,8 +691,8 @@ mousemaster常用快捷键:
     1. 安装到目录C:\Users\sinph\OneDrive\notes\sin5\apps\DynCursor
 1. 创建[keyboardMouseClick.ahk](https://github.com/alvinfunborn/KeyboardMouseClick)
     1. 创建在C:\Users\sinph\OneDrive\notes\sin5\apps\keyboardMouseClick.ahk
-1. 开机启动DynCursor.exe, keyboardMouseClick.ahk, mousemaster.exe
-    1. 创建DynCursor.exe, keyboardMouseClick.ahk, mousemaster.exe的桌面快捷方式
+1. 开机启动DynCursor.exe, keyboardMouseClick.ahk
+    1. 创建DynCursor.exe, keyboardMouseClick.ahk的桌面快捷方式
     1. win+r运行`shell:startup`打开启动文件夹
     1. 将桌面快捷方式拖入启动文件夹
 1. 安装scoop
@@ -828,12 +833,18 @@ mousemaster常用快捷键:
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
     ```
+1. OneDrive已下载[mousemaster](https://github.com/petoncle/mousemaster/tree/74)在C:\Users\sinph\OneDrive\notes\sin5\apps\mousemaster
+    1. 设置以管理员身份开机自启动
+        1. 右键修改属性->兼容性->以管理员身份运行
+        1. 打开注册表编辑器, 定位到计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+        1. 添加字符串值(值不直接使用exe路径是因为需要进入到目录后再启动, mousemaster.exe依赖当前目录下的配置文件):
+            1. 名称: mousemaster
+            1. 值: "C:\Windows\System32\cmd.exe" /c "cd /d C:\Users\sinph\OneDrive\notes\sin5\apps\mousemaster && start mousemaster.exe"
+1. OneDrive已下载[Fluent Search](https://fluentsearch.net/)在C:\Users\sinph\OneDrive\notes\sin5\apps\fluent-search-portable
 1. OneDrive已下载[DynCursor](https://github.com/alvinfunborn/DynCursor)在C:\Users\sinph\OneDrive\notes\sin5\apps\DynCursor
 1. OneDrive已下载`keyboardMouseClick.ahk`在C:\Users\sinph\OneDrive\notes\sin5\apps\keyboardMouseClick.ahk
-1. OneDrive已下载[mousemaster](https://github.com/petoncle/mousemaster/tree/74)在C:\Users\sinph\OneDrive\notes\sin5\apps\mousemaster
-1. OneDrive已下载[Fluent Search](https://fluentsearch.net/)在C:\Users\sinph\OneDrive\notes\sin5\apps\fluent-search-portable
-1. 开机启动DynCursor.exe, keyboardMouseClick.ahk, mousemaster.exe
-    1. 创建DynCursor.exe, keyboardMouseClick.ahk, mousemaster.exe的桌面快捷方式
+1. 开机启动DynCursor.exe, keyboardMouseClick.ahk
+    1. 创建DynCursor.exe, keyboardMouseClick.ahk的桌面快捷方式
     1. win+r运行`shell:startup`打开启动文件夹
     1. 将桌面快捷方式拖入启动文件夹
 1. 设置ima.copilot
